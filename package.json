@@ -1,0 +1,36 @@
+{
+  "name": "NodeJS-Upload-TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "clean": "rimraf dist",
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/morgan": "^1.9.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "promise-mysql": "^3.3.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.1"
+  }
+}
